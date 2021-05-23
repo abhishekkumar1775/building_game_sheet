@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- CSS only -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+                crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+        <link href="http://fonts.cdnfonts.com/css/body-grotesque-slim" rel="stylesheet">
+
+<body>
+
+        <div class="main-container d-flex">
+                <div class="first-col" style="height: 66vh; max-height: 66vh;">
+                        <div class="row">
+                                <div class="d-flex first-row">
+                                        <div class="col-5 p-1 my-1 mx-1">
+                                                <div class="d-flex first-col">
+                                                        <p class="top m-0" style="margin-block-start: 0em !important;
+                                                        margin-block-end: 0em !important;">SKILL POINT</p>
+                                                        <p class="middle m-0 p-0">
+                                                                <input type="number" value="60">
+                                                        </p>
+                                                        <p class="bottom m-0" style="margin-block-start: 0em !important;
+                                                        margin-block-end: 0em !important" ;>REMAINING</p>
+                                                </div>
+
+                                        </div>
+                                        <div class="col-5 p-1 my-1 mx-1">
+                                                <div class="d-flex second-col">
+                                                        <p class="top m-0" style="margin-block-start: 0em !important;
+                                                        margin-block-end: 0em !important;">STAT POINTS</p>
+                                                        <p class="middle m-0 p-0">
+                                                                <input type="number" value="8">
+                                                        </p>
+                                                        <p class="bottom m-0" style="margin-block-start: 0em !important;
+                                                        margin-block-end: 0em !important;">REMAINING</p>
+                                                </div>
+
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="row">
+                                <div class="d-flex second-row">
+                                        <div class="text-area">
+                                                <textarea id="story" name="story" rows="5">
+Handle
+</textarea>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="row">
+                                <div class="d-flex third-row">
+                                        <div class="text-area">
+                                                <textarea id="story" name="story" rows="5">
+Essence
+</textarea>
+                                        </div>
+                                </div>
+                        </div>
+
+
+
+                        <div class="row">
+                                <div class="d-flex fourth-row">
+                                        <div class="first-col">HIT POINTS</div>
+                                        <div class="second-col">
+                                                <p style="margin-block-start: 0em !important;
+                                                margin-block-end: 0em !important;">CURRENT</p>
+                                                <input type="number" value="40">
+                                        </div>
+                                        <div class="third-col">
+                                                <p style="margin-block-start: 0em !important;
+                                                margin-block-end: 0em !important;">MAX</p>
+                                                <input type="number" value="40">
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="row">
+                                <div class="d-flex fifth-row fourth-row">
+                                        <div class="first-col">ESSENCE</div>
+                                        <div class="second-col">
+                                                <p style="margin-block-start: 0em !important;
+                                                margin-block-end: 0em !important;">CURRENT</p>
+                                                <input type="number" value="68">
+                                        </div>
+                                        <div class="third-col">
+                                                <p style="margin-block-start: 0em !important;
+                                                margin-block-end: 0em !important;">MAX</p>
+                                                <input type="number" value="80">
+                                        </div>
+                                </div>
+                        </div>
+
+
+
+                </div>
+                <div class="second-col sidebar" style="height: 66vh; max-height: 66vh;">
+                        <div class="box-1">
+                                <span>INT</span>
+                                <input id="box" value="6" type="number">
+
+                        </div>
+                        <div class="box-2">
+                                <span>INT</span>
+                                <input id="box" value="6" type="number">
+                        </div>
+                        <div class="box-3">
+                                <span>INT</span>
+                                <input id="box" value="6" type="number">
+                        </div>
+                        <div class="box-4">
+                                <span>INT</span>
+                                <input id="box" value="6" type="number">
+                        </div>
+                        <div class="box-5">
+                                <span>INT</span>
+                                <input id="box" value="6" type="number">
+                        </div>
+                        <div class="box-6">
+                                <span>INT</span>
+                                <input id="box" value="6" type="number">
+                        </div>
+                        <div class="box-7">
+                                <span>INT</span>
+                                <input id="box" value="6" type="number">
+                        </div>
+                        <div class="box-8">
+                                <span>INT</span>
+                                <input id="box" value="6" type="number">
+                        </div>
+                        <div class="box-9">
+                                <span>INT</span>
+                                <input id="box" value="6" type="number">
+                        </div>
+                        <div class="box-10">
+                                <span>INT</span>
+                                <input id="box" value="6" type="number">
+                        </div>
+                        <div class="box-11">
+                                <span>EMP</span>
+                                <div>
+                                        <input id="box" value="61" type="number">
+                                        <span style="display: inline-block;">of</span>
+
+                                </div>
+
+                        </div>
+                </div>
+                <div class="third-col" style="height: 66vh; max-height: 66vh;">
+                        <div class="row first-row">
+                                <div class="first-col">
+                                        <div class="head head-top-left">AWARENESS SKILLS</div>
+                                        <div>A</div>
+                                        <div>A </div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">LVL</div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"> </div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">MISC</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">TOTAL</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+
+                        </div>
+
+                        <div class="row first-row">
+                                <div class="first-col">
+                                        <div class="head">Body SKILLS</div>
+                                        <div>A</div>
+                                        <div>A </div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">LVL</div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"> </div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">MISC</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">TOTAL</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+
+                        </div>
+
+                        <div class="row first-row">
+                                <div class="first-col">
+                                        <div class="head">CONTROL SKILLS</div>
+                                        <div>A</div>
+                                        <div>A </div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">LVL</div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"> </div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">MISC</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">TOTAL</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+
+                                </div>
+
+                        </div>
+
+                        <div class="row first-row">
+                                <div class="first-col">
+                                        <div class="head">EDUCATION SKILLS</div>
+                                        <div>A</div>
+                                        <div>A </div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">LVL</div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"> </div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">MISC</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">TOTAL</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+
+                        </div>
+
+                        <div class="row first-row last-row">
+                                <div class="first-col">
+                                        <div class="head">FIGHT SKILLS</div>
+                                        <div>A</div>
+                                        <div>A </div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">LVL</div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"> </div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">MISC</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">TOTAL</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div class="total-last"><input type="number"></div>
+
+                                </div>
+
+                        </div>
+
+
+                </div>
+
+                <div class="third-col fourth-col" style="height: 66vh; max-height: 66vh;">
+                        <div class="row first-row">
+                                <div class="first-col">
+                                        <div class="head head-top-left">EDUCATION SKILLS</div>
+                                        <div>A</div>
+                                        <div>A </div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">LVL</div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"> </div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">MISC</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">TOTAL</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+
+                        </div>
+
+                        <div class="row first-row">
+                                <div class="first-col">
+                                        <div class="head">PERFORMANCE SKILLS</div>
+                                        <div>A</div>
+                                        <div>A </div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">LVL</div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"> </div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">MISC</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">TOTAL</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+
+                        </div>
+
+                        <div class="row first-row">
+                                <div class="first-col">
+                                        <div class="head">RANGED WEAPON SKILLS</div>
+                                        <div>A</div>
+                                        <div>A </div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">LVL</div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"> </div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">MISC</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">TOTAL</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+
+                        </div>
+
+                        <div class="row first-row last-row">
+                                <div class="first-col">
+                                        <div class="head">SOCIAL SKILLS</div>
+                                        <div>A</div>
+                                        <div>A </div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">LVL</div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"> </div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">MISC</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">TOTAL</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div class="total-last"><input type="number"></div>
+
+                                </div>
+
+                        </div>
+
+
+                </div>
+
+                <div class="third-col fifth-col" style="height: 66vh; max-height: 66vh;">
+                        <div class="row first-row">
+                                <div class="first-col">
+                                        <div class="head head-top-left">TECHNIQUE SKILLS</div>
+                                        <div>A</div>
+                                        <div>A </div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">LVL</div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"> </div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">MISC</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">TOTAL</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+
+                        </div>
+
+                        <div class="row first-row">
+                                <div class="first-col">
+                                        <div class="head">MAGIC SKILLS</div>
+                                        <div>A</div>
+                                        <div>A </div>
+                                        <div>A</div>
+                                        <div>A</div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">LVL</div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"> </div>
+                                        <div><input value="1" type="number"></div>
+                                        <div><input value="1" type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">MISC</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">TOTAL</div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"> </div>
+                                        <div><input type="number"></div>
+                                        <div><input type="number"></div>
+                                </div>
+
+                        </div>
+
+                        <div class="row first-row last-row">
+                                <div class="first-col">
+                                        <div class="head">TECHNOMANCY SKILLS</div>
+                                        <div>A</div>
+
+                                        <div>A</div>
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">LVL</div>
+                                        <div><input value="1" type="number"></div>
+
+                                        <div><input value="1" type="number"></div>
+
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">MISC</div>
+                                        <div><input type="number"></div>
+
+                                        <div><input type="number"></div>
+
+                                </div>
+                                <div class="second-col">
+                                        <div class="head">TOTAL</div>
+                                        <div><input type="number"></div>
+
+                                        <div class="total-last"><input type="number"></div>
+
+                                </div>
+
+                        </div>
+
+
+                </div>
+
+
+
+        </div>
+
+</body>
+
+</html>

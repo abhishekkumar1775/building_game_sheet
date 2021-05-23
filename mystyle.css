@@ -1,0 +1,374 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    font-family:  "Body Grotesque Slim";
+    
+    
+}
+
+.main-container{
+    width: 100%;
+    background-color: ;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -------------------- FIRST COL ------------------------ */
+
+.first-col{
+    background-color:rgb(0, 0, 0) ;
+    width: 17vw;
+}
+
+.first-col .d-flex{
+    display: flex;
+    flex: row   ;
+}
+
+.first-col .d-flex{
+    display: flex;
+    flex: row   ;
+}
+.col-5{
+    width: 50%;
+}
+.first-col .first-row {
+    height: 14vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.first-col .first-row .first-col{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    display: inline-block;
+
+    text-align: center;
+
+    border: 0.1em solid black !important;
+    border-top-left-radius: 1em !important;
+    
+    background-image: linear-gradient(to right, rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+    color: rgb(255, 255, 255);
+    
+    flex: ;
+}
+
+.first-col .first-row .second-col{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+
+    text-align: center;
+
+    border: 0.1em solid black !important;
+
+    background-color: white;
+    color: rgb(0, 0, 0);
+    
+    flex: ;
+}
+input[type=number]{
+
+    width: 100%;
+    background-color: transparent;
+    border: none;
+
+    text-align: center;
+
+    font-size: 3em;
+    font-family: 'Baskervville', serif;
+    font-weight: 500;
+}
+.first-row .first-col input[type=number]{
+    color: white;
+}
+
+.first-col .text-area {
+    width: 17vw;
+    height: 10vh;
+}
+.first-col textarea{
+    box-sizing: border-box;
+    border: 0.2em solid black !important;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.first-col .third-row .text-area {
+    width: 17vw;
+    height: 17vh;
+}
+.second-col textarea{
+    box-sizing: border-box;
+    border: 0.2em solid black !important;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.fourth-row{
+    display: flex;
+    height: 12.5vh;
+}
+.fourth-row .first-col{
+    display: flex;
+    font-size: 1em;
+    width:5vw;
+
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+
+    border: 2px solid black;
+    border-right: none;
+}
+
+.fourth-row .second-col{
+    display: flex;
+    flex-direction: column-reverse;
+
+    justify-content: end;
+
+    font-size: 0.9em;
+    text-align: center;
+
+    border: 2px solid black;
+    background-color: white;
+    
+    border-right: none;
+    border-left: none;
+    
+    width: 6vw;
+}
+
+
+.fourth-row .third-col{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+
+    border: 2px solid black;
+    border-left: none;
+
+    background-image:  linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+    width: 6vw;
+}
+
+.fifth-row .third-col{
+    border-bottom-right-radius: 1em;
+    background-color: black;
+}
+
+
+/* _______________Second column____________________ */
+
+.second-col{
+    box-sizing: border-box;
+    font-family:  "Body Grotesque Slim";
+}
+.second-col >div{
+    width: 8vw;
+    height: 6vh;
+
+    box-sizing: border-box;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+
+    border: 3px solid rgb(255, 255, 255);
+
+    background-image:  linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+}
+
+/* All text inside the boxes */
+div.second-col.sidebar span{
+    display: block;
+    text-align: center;
+    
+}
+
+/* All digits inside the boxes */
+div.second-col.sidebar input#box{
+    font-size: 1em;
+    text-align: right;
+    font-weight: 700;
+}
+div.second-col.sidebar .box-11 input#box{
+    font-size: 1em;
+    
+    text-align: right;
+    width: 5vw;
+}
+
+div.second-col.sidebar .box-1{
+    border-top-left-radius: 1em;
+}
+
+div.second-col.sidebar .box-11{
+    border-bottom-right-radius: 1em;
+}
+
+/* _---------------- THIRD ROW-------------------- */
+
+.third-col{
+    background-color: rgb(0, 0, 0);
+    color: black;
+
+    box-sizing: border-box;
+
+    font-size: 0.8rem;
+
+    margin-left: 0.2vw;
+    margin-right: 0.2vw;
+    
+}
+
+.third-col div.row.first-row{
+    display: flex;
+    /* flex-wrap: wrap; */
+
+    box-sizing: border-box;
+    background: rgb(0, 0, 0)
+    height: ;
+}
+
+.third-col .first-row div.first-col{
+    width: 10.2vw;
+    /* height: 11.28vh; */
+
+
+    box-sizing: border-box;
+    border-top-left-radius: 1rem;
+
+    background-color: rgb(250, 250, 250);
+}
+.third-col .first-row div.first-col div{
+height: 1.89vh;
+}
+
+.third-col .first-row div.first-col div{
+    border: 0.01rem solid black;
+    box-sizing: border-box;
+}
+
+.third-col .first-row div input{
+    font-size: 1rem;
+    background-color: transparent;
+
+    box-sizing: border-box;
+    border: 0.01rem solid black;
+
+    max-width: 100%;
+    height: 1.89vh;
+
+    text-align: right;
+    
+}
+
+.third-col .first-row div.second-col{
+    width: 3vw;
+    /* height: 11.28vh; */
+}
+
+.third-col .first-row div.second-col div{
+    width: 3vw;
+    height: 1.89vh;
+    border: none;
+    background-color: white;
+    background-image: none;
+}
+
+
+
+.third-col .row.first-row .head{
+    background-image:  linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+    border: none;
+    height: 2.20vh;
+    border: 0.1vh solid black;
+    border-left: 0;
+    border-right: 0;
+
+    text-align: center;
+    font-weight: 900;
+
+}
+.third-col .row.first-row .head:nth-of-type(1)
+{
+    text-align: left;
+    padding-left: 0.3vw;
+}
+
+.third-col .row.first-row .first-col .head-top-left
+{
+    border-top-left-radius: 1rem;
+    background-color: black !important;
+}
+
+.third-col .row.first-row.last-row{
+    border-bottom-right-radius: 1rem;
+    background-color: black;  
+}
+.third-col .row.first-row.last-row .total-last{
+    border-bottom-right-radius: 1rem;
+}
+
+/* _______________FOURTH COLUMN------------------- */
+
+.fourth-col.third-col .first-row div.first-col div{
+    height: 1.83vh !important;
+    }
+
+.fourth-col.third-col .first-row div input{
+        height: 1.83vh !important; 
+    }
+
+.fourth-col.third-col .first-row div.second-col div{
+        height: 1.83vh !important;
+}
+
+.fourth-col.third-col .row.first-row .head{
+    height: 2vh;
+    border: 0.1vh solid black;
+
+}
+
+.third-col .row.first-row .head:nth-of-type(1)
+{
+    font-size: 0.78rem;
+    padding-left: 0.5vw;
+}
+
+/* _______________FOURTH COLUMN------------------- */
+
+.fifth-col.third-col .first-row div.first-col div{
+    height: 2.53vh !important;
+    }
+
+.fifth-col.third-col .first-row div input{
+        height: 2.53vh !important; 
+    }
+
+.fifth-col.third-col .first-row div.second-col div{
+        height: 2.53vh !important;
+}
+
+.fifth-col.third-col .row.first-row .head{
+    height: 2vh;
+    border: 0.1vh solid black;
+
+}
+
+.fifth-col.third-col.third-col .row.first-row .head:nth-of-type(1)
+{
+    font-size: 0.85rem;
+    padding-left: 0.6vw;
+}
+
+    
