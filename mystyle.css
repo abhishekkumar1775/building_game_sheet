@@ -3,19 +3,86 @@ body{
     background-color: rgb(0, 0, 0);
     box-sizing: border-box;
     font-family:  "Body Grotesque Slim";
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     
+    /* background-image: url(images/main.png);
+    background-repeat: no-repeat;
+    background-position-x: 130%;
+    background-position-y: -45%; 
+     */
+}
+
+div img{
+    width: 4vw;
+    margin-left: 13vw;
+    position: relative;
     
+}
+
+.nav-bar{
+    display: flex;
+    width: 85vw;
+    margin: 10vh auto 1vh;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.nav-bar button{
+    width: 8vw;
+    border: 0.2rem solid white;
+    
+    margin: 0 0.5vw;
+    padding:0.9vh 0.8vw ;
+
+    text-align: center;
+
+    border-radius: 0.8rem;
+    transition: 0.3s;
+
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+    /* transition: all 2s ; */
+}
+
+.nav-bar button.two{
+    width: 15vw !important;
+    height: 5vh;
+}
+.nav-bar button.three{
+    width: 10vw !important;
+    height: 5vh;
+}
+.nav-bar button.four{
+    width: 9vw !important;
+    height: 5vh;
+}
+.nav-bar button.five{
+    width: 11vw !important;
+    height: 5vh;
+}
+
+.nav-bar button:hover{
+    font-size: 0.9rem;
+}
+
+
+.nav-bar button:hover{
+   
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
 }
 
 .main-container{
     width: 100%;
     background-color: ;
 }
-.d-flex{
-    display: flex;
-    justify-content: center;
-}
-
 
 /* -------------------- FIRST COL ------------------------ */
 
