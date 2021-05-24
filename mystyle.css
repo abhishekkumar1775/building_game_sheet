@@ -8,33 +8,47 @@ body{
     flex-direction: column;
     justify-content: start;
     
-    /* background-image: url(images/main.png);
+     /* background-image: url(images/main.png);
     background-repeat: no-repeat;
     background-position-x: 130%;
-    background-position-y: -45%; 
-     */
+    background-position-y: -705%;  */
+    
+}
+
+header{
+    display: flex;
+    width: 85vw;
+    margin:auto;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
 }
 
 div img{
-    width: 4vw;
-    margin-left: 13vw;
-    position: relative;
+    width: 10vw;
+    
     
 }
 
 .nav-bar{
     display: flex;
+    height: 7vh;
     width: 85vw;
-    margin: 10vh auto 1vh;
+    /* margin: 10vh auto 1vh; */
 }
 .nav-bar{
     display: flex;
     flex-direction: row;
     justify-content: left;
+    align-items: flex-end;
+
+    align-self: flex-end;
+
+  
 }
 .nav-bar button{
     width: 8vw;
     border: 0.2rem solid white;
+    height: 5vh;
     
     margin: 0 0.5vw;
     padding:0.9vh 0.8vw ;
