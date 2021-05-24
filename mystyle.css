@@ -7,6 +7,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: start;
+
+    margin: auto auto;
     
      /* background-image: url(images/main.png);
     background-repeat: no-repeat;
@@ -15,11 +17,17 @@ body{
     
 }
 
+/* -------------------HEADER---------------- */
+
 header{
-    display: flex;
     width: 85vw;
+    height: 10vh;
+
+    display: flex;
+   
+   
     margin:auto;
-    margin-top: 5vh;
+    margin-top: 0vh;
     margin-bottom: 1vh;
 }
 
@@ -46,14 +54,18 @@ div img{
   
 }
 .nav-bar button{
-    width: 8vw;
+    width: 8.5vw;
     border: 0.2rem solid white;
     height: 5vh;
+
+    overflow: hidden;
     
     margin: 0 0.5vw;
     padding:0.9vh 0.8vw ;
 
     text-align: center;
+
+    font-size: 1rem;
 
     border-radius: 0.8rem;
     transition: 0.3s;
@@ -84,9 +96,6 @@ div img{
 }
 
 
-.nav-bar button:hover{
-   
-}
 
 .d-flex{
     display: flex;
@@ -126,10 +135,11 @@ div img{
 }
 .first-col .first-row .first-col{
     width: 100%;
-    height: 100%;
+    height: 14vh;
     box-sizing: border-box;
 
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 
     text-align: center;
 
@@ -144,9 +154,11 @@ div img{
 
 .first-col .first-row .second-col{
     width: 100%;
-    height: 100%;
+    height: 14vh;
     box-sizing: border-box;
-    display: inline-block;
+
+    display: flex;
+    flex-direction: column;
 
     text-align: center;
 
@@ -154,6 +166,8 @@ div img{
 
     background-color: white;
     color: rgb(0, 0, 0);
+
+    font-size: 1rem;
     
     flex: ;
 }
@@ -254,6 +268,7 @@ input[type=number]{
 .second-col{
     box-sizing: border-box;
     font-family:  "Body Grotesque Slim";
+    background-color: black;
 }
 .second-col >div{
     width: 8vw;
@@ -452,4 +467,105 @@ height: 1.89vh;
     padding-left: 0.6vw;
 }
 
+    /*--------------FOOTER------------------  */
+footer{
+    display: flex;
+    flex-direction: column;
+
+    width: 84vw;
+    height: 18vh;
+
+    background-color: transparent;
     
+    margin: auto;
+    margin-top: 1vh;
+}
+
+footer .first-row{
+    width: 17vw;
+    height: 9vh;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: transparent;
+    margin-bottom: 0.1rem;
+}
+
+footer .second-row{
+    width: 17vw;
+    height: 9vh;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(0, 0, 0);
+}
+footer .first-row .first-col{
+    width: 6.33vw;
+    height: 9VH;
+
+    box-sizing: border-box;
+    
+    border: 2px solid rgb(255, 255, 255);
+    margin-bottom: 1vh;
+
+    margin: 0.1rem;
+    
+    text-align: center;
+    font-size: 0.85rem;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+footer .first-row .first-col.first{
+    border-top-left-radius: 1rem;
+}
+footer .first-row .first-col input[type=number]{
+    height: 5.4vh;
+    font-size: 3rem;
+
+}
+
+footer .second-row .first-col{
+    width: 8.5vw;
+    height: 9VH;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+footer .second-row .first-col.last{
+    border-bottom-right-radius: 1rem;
+}
+footer .first-col textarea#text-one{
+    /* width: 3vw; */
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    border-bottom-right-radius: 1rem;
+    
+    border: none !important;
+}
+footer .first-col textarea#text-two{
+    /* width: 3vw; */
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    border-bottom-right-radius: 1rem;
+    
+    border: none !important;
+}
+
+
+/* footer#footer .first-col .row.first-row .first-col{
+    height: 9vh;
+
+    background-color: white;
+    background-image: none !important;
+} */
