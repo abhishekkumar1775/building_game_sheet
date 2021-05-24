@@ -50,8 +50,6 @@ div img{
     align-items: flex-end;
 
     align-self: flex-end;
-
-  
 }
 .nav-bar button{
     width: 8.5vw;
@@ -60,7 +58,7 @@ div img{
 
     overflow: hidden;
     
-    margin: 0 0.5vw;
+    margin: 0 0.2vw;
     padding:0.9vh 0.8vw ;
 
     text-align: center;
@@ -470,7 +468,7 @@ height: 1.89vh;
     /*--------------FOOTER------------------  */
 footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     width: 84vw;
     height: 18vh;
@@ -560,6 +558,248 @@ footer .first-col textarea#text-two{
     border-bottom-right-radius: 1rem;
     
     border: none !important;
+}
+footer .second-footer{
+    background: white;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin: 0;
+
+    margin-left: 0.5vw;
+}
+footer .second-footer .first-row{
+    margin: 0;
+}
+footer .second-footer >div{
+   
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    border: 0.2rem solid white;
+
+    align-items: center;
+
+    width: 17vw;
+    height: 12vh;
+
+    text-align: center;
+
+    border-top-left-radius: 1rem;
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+     
+}
+
+footer .second-footer >div span{
+    display: block;
+    margin: 1vh auto;
+}
+
+footer .second-footer>div .second-row{
+    background-image: none;
+    background: none;
+
+    display: flex;
+    flex-direction: row;
+
+    box-sizing: border-box;
+
+}
+
+footer .second-footer >div .second-row span{
+    background: rgb(255, 255, 255);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+footer .second-footer >div div.second-row span.one{
+    background: rgb(255, 255, 255);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    width: 7vw;   
+}
+footer .second-footer >div div.second-row span.two{
+    background: rgb(255, 255, 255);
+
+    box-sizing: border-box;
+    width: 2.7vw;   
+}
+footer .second-footer >div div.second-row span.three{
+    background: rgb(255, 255, 255);
+
+    margin-right: ;
+    box-sizing: border-box;
+    width: 4.5vw;   
+}
+#second-row{
+    width: 17vw;
+    height: 4vh;
+    background: white;
+    background-image: none;
+    margin-top: 0;
+}
+
+#second-row span{
+    display: inline-block;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#second-row .final-row{
+    width: 17vw;
+    height: 4vh;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    margin: 0 !important;
+}
+#second-row span{
+    height: 4vh;
+    width: 6vw;
+
+    display: flex;
+    align-items: center;
+
+    margin: 0 !important;
+}
+#second-row span:nth-of-type(1){
+    width: 7vw;
+}
+#second-row span:nth-of-type(2){
+    width: 2.7vw;
+}
+#second-row span:nth-of-type(3){
+    width: 4.5vw;
+    text-align: center;
+}
+#second-row input{
+    font-size: 2.5rem;
+    width: 2.7vw;
+}
+
+footer#footer .third-footer{
+    width: 50vw;
+    height:18vh;
+
+    box-sizing: border-box;
+    margin-left: 0.5vw;
+
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-color: white;
+}
+
+#footer .third-footer{
+    display: flex;
+    flex-direction: row;
+
+    border: 3px solid white;
+    background-image:linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209)) ;
+}
+
+.third-footer .new-col{
+    width: 16vw;
+    height: 18vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center; 
+    
+    text-align: center;
+
+    padding-top:1vh ;
+    
+}
+
+.third-footer .new-col span.head{
+    width: 14vw;
+    background-color: black;
+    color: white;
+
+    text-align: center;
+    margin-top: 0;
+}
+
+.third-footer .new-col span{
+    display: inline-block;
+    background-color: white;
+
+    text-align: left;
+    padding-left: 1vw;
+
+    width: 14vw;   
+    margin-top: 1vh;
+
+}
+
+.third-footer button{
+    margin-top: 3vh;
+    align-self: flex-start;
+
+    background-color: white;
+    border-radius: 1rem;
+
+    border: none;
+    transition: 0.2s;
+
+    margin-left: 1vw;
+}
+.third-footer button:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+    border: 2px solid white;
+}
+.third-footer button:active{
+    background-color: rgb(251, 251, 251);
+    border: 2px solid white;
+}
+
+.triplet{
+    display: flex;
+    flex-direction: row;
+}
+.third-footer .three{
+    display: flex;
+    flex-direction: column;
+
+    width:4.8vw ;
+    background-color: none ;
+
+    color: rgb(0, 0, 0);
+    margin-top: 1vh;
+    margin-right: 1vh;
+
+    text-align: center;
+}
+.third-footer .three .head{
+
+    background-color: black;
+    color: white;
+}
+.triplet .three span {
+    margin-top: 1vh;
+}
+.triplet .three span.head {
+    margin-top: 0vh;
+}
+
+.triplet .three span input[type=text]{
+    box-sizing: border-box;
+    width: 4.3vw;
+    height: ;
+    border: none;
+}
+
+.three button{
+    align-self: center;
+    margin-left: 0;
 }
 
 
