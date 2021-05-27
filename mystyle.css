@@ -1,6 +1,14 @@
 
 body{
     background-color: rgb(0, 0, 0);
+    background-image: url(images/Dragonside.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x:left ;
+    
+
+
+
     box-sizing: border-box;
     font-family:  "Body Grotesque Slim";
 
@@ -32,13 +40,19 @@ header{
 }
 
 div img{
-    width: 10vw;
+    width: 15vw;  
     
-    
+}
+#images-header{
+    display: flex;
+    flex-direction: row;
+
+
 }
 
 .nav-bar{
     display: flex;
+
     height: 7vh;
     width: 85vw;
     /* margin: 10vh auto 1vh; */
@@ -52,7 +66,7 @@ div img{
     align-self: flex-end;
 }
 .nav-bar button{
-    width: 8.5vw;
+    width: 7.7vw;
     border: 0.2rem solid white;
     height: 5vh;
 
@@ -63,21 +77,21 @@ div img{
 
     text-align: center;
 
-    font-size: 1rem;
+    font-size: 0.75rem;
 
     border-radius: 0.8rem;
-    transition: 0.3s;
+    transition: 0.2s;
 
     background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
     /* transition: all 2s ; */
 }
 
 .nav-bar button.two{
-    width: 15vw !important;
+    width: 11.5vw !important;
     height: 5vh;
 }
 .nav-bar button.three{
-    width: 10vw !important;
+    width: 8vw !important;
     height: 5vh;
 }
 .nav-bar button.four{
@@ -85,14 +99,18 @@ div img{
     height: 5vh;
 }
 .nav-bar button.five{
-    width: 11vw !important;
+    width: 9vw !important;
     height: 5vh;
 }
 
-.nav-bar button:hover{
+/* .nav-bar button:hover{
     font-size: 0.9rem;
+} */
+.nav-bar button:active{
+    font-size: 0.9rem;
+    background-image: none;
+    background-color: white;
 }
-
 
 
 .d-flex{
