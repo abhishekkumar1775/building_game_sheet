@@ -4,7 +4,7 @@ body{
     background-image: url(images/Dragonside.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x:left ;
+    background-position-x:+7vh ;
     
 
 
@@ -40,7 +40,7 @@ header{
 }
 
 div img{
-    width: 15vw;  
+    width: 18vw;  
     
 }
 #images-header{
@@ -66,14 +66,14 @@ div img{
     align-self: flex-end;
 }
 .nav-bar button{
-    width: 7.7vw;
+    width: 6.9vw;
     border: 0.2rem solid white;
     height: 5vh;
 
     overflow: hidden;
     
     margin: 0 0.2vw;
-    padding:0.9vh 0.8vw ;
+    /* padding:0.9vh 0.8vw ; */
 
     text-align: center;
 
@@ -91,15 +91,15 @@ div img{
     height: 5vh;
 }
 .nav-bar button.three{
-    width: 8vw !important;
+    width: 7vw !important;
     height: 5vh;
 }
 .nav-bar button.four{
-    width: 9vw !important;
+    width: 7vw !important;
     height: 5vh;
 }
 .nav-bar button.five{
-    width: 9vw !important;
+    width: 8vw !important;
     height: 5vh;
 }
 
