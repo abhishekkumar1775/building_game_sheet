@@ -165,6 +165,13 @@ body{
     justify-content: center;
     align-items: flex-end;
 }
+.row-1 .col-2 .interface >div{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
 .col-2 .interface{
     width: 38vw;
     height: 5vh;
