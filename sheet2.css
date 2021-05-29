@@ -1,0 +1,326 @@
+body{
+    /* box-sizing: border-box; */
+}
+
+.row{
+    width:85vw ;
+    height: 35vh;
+    
+
+    margin: 1vh auto;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: ;
+}
+
+.col{
+    height: 35vh;
+    padding:2px ;
+
+    background-color: transparent;
+}
+.col-1{
+    width: 45vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    /* font-size: 2.5em; */
+}
+
+.col-2{
+    width: 44vw;
+    background-color: transparent;
+}
+
+.interface{
+    width: 43vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content:space-between;
+
+    margin: auto;
+
+    background-color: transparent;
+    border: ;
+    
+}
+.interface-2{
+
+    background-color: cadetblue;
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+
+    /* border: 3px solid white; */
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+
+    box-sizing: border-box;
+}
+
+.int-1{
+    width:33vw ;
+    height: 100%;
+
+    background-color: cadetblue;
+    border: 3px solid white;
+
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+    border-top-left-radius: 1rem;
+
+    font-size: 2.5em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+}
+.interface-2 .int-1{
+    width:43vw ;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+.interface-1 .int-2 input[type=number]{
+    width: 8vw;
+    height: 100%;
+
+    font-size: 2.0em;
+}
+.interface-2 .int-1 input[type=number]{
+    width: 8vw;
+    height: 50%;
+
+    border: none;
+
+
+    font-size: 1.2em;
+}
+
+.int-1 >div{
+    align-self: center;
+    font-size: 1em;
+}
+.int-2{
+    width:9.5vw ;
+    height: 100%;
+
+    border: 3px solid white;
+
+
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+    box-sizing: border-box;
+
+    border-bottom-right-radius: 1em;
+
+    background-color: cadetblue;
+}
+
+.interface-3 .int-1{
+    width:14vw ;
+    height: 100%;
+
+    border: 3px solid white;
+
+    box-sizing: border-box;
+
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+    background-color: cadetblue;
+
+    font-size: 1em;
+}
+.interface-3 .int-2{
+    width:14vw ;
+    height: 100%;
+
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+    background-color: cadetblue;
+
+    border-radius: 0;
+}
+.interface-3 .int-3{
+    width:14vw ;
+    height: 100%;
+
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+    border: 3px solid white;
+
+    box-sizing: border-box;
+
+    background-color: cadetblue;
+    border-bottom-right-radius: 1em;
+}
+
+.row-1 .col-2{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+
+
+    justify-content: center;
+    align-items: flex-end;
+}
+.col-2 .interface{
+    width: 38vw;
+    height: 5vh;
+
+
+
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    /* align-self: flex-end; */
+
+    margin-bottom: 0.83333vh;
+    font-size: 1.3em;
+    text-align: center;
+
+    background-color: transparent;
+}
+
+.col-2 .interface-3 .int-1{
+    width:12vw ;
+    height: 100%;
+
+    /* background-color: cadetblue; */
+}
+.col-2 .interface-3 .int-2{
+    width:12vw ;
+    height: 100%;
+
+    /* background-color: cadetblue; */
+}
+.col-2 .interface-3 .int-3{
+    width:12vw ;
+    height: 100%;
+
+    /* background-color: cadetblue; */
+}
+
+/* _______________________row-2___________________________ */
+
+.row-2{
+    /* background-color: teal; */
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+}
+.row-2 .col-1{
+    height: 4vh;
+    width: 83vw;
+    background-color: white;
+
+    border-top-left-radius: 1em;
+    text-align: center;
+
+    margin: 1vh auto 1vh;
+}
+.row-2 .col-2{
+    width: 83vw;
+    height: 4vh;
+
+    display: flex;
+    flex-direction: row;
+
+    
+    justify-content:space-between ;
+    margin: 0.5vh auto;
+
+    text-align: center;
+    box-sizing: border-box;
+}
+.row-2 .col-2 div{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.row-2 .col-2 .one{
+    width: 20vw;
+    height: 4vh;
+
+
+    background-color: white;
+    /* border: 3px solid black; */
+}
+
+.row-2 .col-2 .three{
+    width: 4vw;
+    height: 4vh;
+
+
+    background-color: white;
+    /* border: 3px solid black; */
+}
+.row-2 .col-2 .four{
+    width: 30vw;
+    height: 4vh;
+
+
+    background-color: white;
+    /* border: 3px solid black; */
+}
+
+/* --------------------variable row___________________________ */
+
+.row-2 .col-2.col-3 >div{
+    height: 8vh !important;
+}
+.row-2 .col-2.col-3 div.one:nth-of-type(2){
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-end;
+}
+select{
+    border: 0 !important;
+    text-align: center !important;
+
+    width: 12vw;
+}
+select option{
+    text-align: center !important;
+}
+#col-3{
+    height: 8vh;
+}
+.col-4{
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    margin: 1vh 1vw;
+}
+
+.col-4 button{
+    margin-top: 3vh;
+    align-self: flex-start;
+
+    background-color: white;
+    border-radius: 0.7rem;
+    height: 3.5vh;
+
+    border: none;
+    transition: 0.2s;
+    background-image:linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209)) ;
+
+}
+.col-4 button:hover{
+        border: 2px solid white;
+        background-image: none;
+}
+.col-4 button:active{
+    background-image:linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209)) ;
+
+    background-color: rgb(251, 251, 251);
+    border: 2px solid white;
+}
