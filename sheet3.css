@@ -1,0 +1,376 @@
+section.main-body{
+    width: 85vw;
+    height: 85vh;
+
+    margin: auto auto;
+    background-color: rgb(0, 0, 0);
+
+    display: flex;
+    flex: row;
+
+    box-sizing: border-box;
+
+    justify-content: space-between;
+}
+
+.col{
+    width: 41vw; 
+    height: 100%;
+
+    /* border: 3px solid black; */
+    background-color: cornflowerblue;
+
+    box-sizing: border-box;
+
+    
+}
+.col-1 >.row{
+    box-sizing: border-box;
+
+    width: 41vw;
+    background-color: cornsilk;
+
+    /* border: 2px solid black; */
+
+}
+.col-1 > .row-1{
+    height: 18vh;  
+     
+}
+.col-1 >.row-2{
+height: 39vh;
+}
+.col-1 >.row-3{
+height: 28vh;
+}
+.row-1 >.row-1{
+    width: 41vw;
+    height: 6vh;
+
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+
+    border: 3px solid black;
+}
+.row-1 >.row-2{
+    width: 41vw;
+    height: 12vh;
+
+    background-color: rgb(117, 13, 214);
+    /* background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209)); */
+
+
+    display: flex;
+}
+.row-2 > .col{
+    width:50% ;
+    height: 100%;
+
+    background-color: rgb(255, 255, 255);
+}
+.row.row-2 .col.col-2{
+    border: 2px solid black;
+}
+.row .col-1 .row{
+    width: 100%;
+    height: 50%;
+
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    /* background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209)); */
+
+}
+.col-1 > .row-2{
+    width: 100%;
+    height: 39vh;
+    
+
+    background-color: chartreuse;
+
+}
+.row-2 .common-class{
+    width: 100%;
+    height: 100%; 
+     /* 24 + 15 */
+
+    background-color: darkblue;
+}
+
+.common-class > .common-row{
+    width: 100%;
+    height:4vh ;
+
+    box-sizing: border-box;
+    border: 2px solid black;
+
+    background-color: white;
+}
+
+.col-1 > .row-2
+{
+    display: flex;
+}
+.common-class textarea{
+    width: 100%;
+    height:15vh ;
+
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+.common-class>div:last-child{
+    height: 15vh;
+}
+
+/* --------------------row-3-----------------   28vh*/
+
+.col-1 .row-3{
+    width: 100%;
+    height: 28vh;
+
+    background-color: rgb(255, 255, 255);
+}
+.row-3 > .row-1{
+    height: 4vh;
+
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+.row-3 > .row-1 >div{
+    width: 98%;
+    height: 4vh;
+
+    background-color: darkmagenta;
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+
+    display: flex;
+
+    box-sizing: border-box;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    text-align: CENTER;
+
+}
+.row-3 >.row-2{
+    display: flex;
+
+
+}
+.row-2 > .common-col{
+    width: 24%;
+    height: 24vh;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+
+    background-color: white;
+}
+.common-rows{
+    width: 100%;
+    height: 3.5vh;
+    box-sizing: border-box;
+
+    text-align: center;
+    border: 3px solid black;
+}
+
+/* _----------col-2------------------- */
+#col-2 >.row-1{
+    width: 41vw;
+    height: 48vh;
+
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+.row-1 .common-text{
+    width: 100%;
+    height: 4vh;
+
+    display: flex;
+
+    box-sizing: border-box;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+}
+.row-1 .common-text .text{
+    box-sizing: border-box;
+    width:15vw;
+    border: 2px solid black;
+
+    height: 4vh;
+    padding-left: 0.5em;
+}
+.row-1 .common-text div:last-child{
+    width: 26vw;
+    background-color: azure;
+}
+.row-1 .common-text input{
+    width: 100%;
+    height: 4vh;
+
+    box-sizing: border-box;
+}
+
+.row-1 .common-text.last-child{
+    width: 100%;
+    height: 4vh;
+
+    border: none;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.common-text.last-child div{
+    width: 36.5%;
+    height: 3vh;
+
+    margin: 1em 0.1em;
+    box-sizing: border-box;
+
+    padding-left: 1em;
+
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+
+    border: 2px solid black;
+}
+#col-2 >.row-2{
+    width: 41vw;
+    height: 37vh;
+
+    background-color: rgb(255, 255, 255);
+}
+#col-2 >.row-2 .row{
+    width: 40.5vw;
+    height: 10vh;
+
+    background-color: white;
+    margin: auto auto;
+    border: 2px solid black;
+
+    box-sizing: border-box;
+}
+#col-2 >.row-2 .row-1{
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+
+}
+#col-2 >.row-2 .row-1 >div{
+    padding-left: 0.4em;
+    height: 3vh;
+    /* height: 22%; */
+}
+
+#col-2 textarea{
+    width: 100%;
+    height: 6.5vh;
+
+    border: none;
+    box-sizing: border-box;
+
+    background-color: transparent;
+}
+#col-2 >.row-2> .row-2{
+    display: flex;
+    width: 40.5vw;
+
+    border: none;
+    /* border: 2px solid black; */
+    /* width: 98%; */
+    /* border: none; */
+}
+
+#col-2 >.row-2> .row-2 > .col{
+width: 30%;
+height: 100%;
+
+display: flex;
+flex-direction: row;
+border: none;
+background-color: rgb(255, 255, 255);
+
+border: 2px solid black;
+box-sizing: border-box;
+}
+
+#col-2 >.row-2> .row-2 >.col-1{
+    width: 40%;
+}
+#textx .first{
+    width: 100%;
+    height: 100%;
+}
+#textx .first > div{
+    height: 3vh;
+}
+#col-2 > .row-2>.row-3{
+    width: 40.5VW;
+    height: 16vh;
+
+    box-sizing: border-box;
+    height:16vh !important;
+
+    background-color: white;
+    background-image: none;
+}
+#col-2 > .row-2>.row-3 textarea{
+    height: 12.7vh;
+}
+#col-2 > .row-2>.row-3 div{
+    height: 3vh;
+}
+#col-1 >row-2{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+}
+
+#final-row{
+    /* width: 40.5vw ; */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+}
+
+#enemies{
+    font-size: 1.8em;
+}
+
+#button{
+    padding: 0.4em;
+    display: flex;
+
+    justify-content: space-between;
+}
+#button button{
+    border-radius: 1em;
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+
+    border: none;
+
+}
+#button button:hover{
+    background-image: none;
+    background-color: white;
+}
+#button button:active{
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+
+}
