@@ -9,6 +9,8 @@ body{
     background-position-y: 17vh;
 
     height: 75vh;
+
+    /* background-image: url(images/Asset2.png); */
 }
 .row{
     width: 90vw;
@@ -19,16 +21,26 @@ body{
     display: flex;
     justify-content: center;
 }
-.row-2{
+.row-2,.row-5{
     margin-top: 7vh;
 }
+.image{
+    background-image: url(images/Asset2.png);
+    background-repeat:no-repeat ;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: -15vh;
+
+    height: 50vh;
+}
+
 .row-3{
     width: 85vw;
 }
 .row-4{
     margin-top: 9vh;
 }
-.row-2,.row-3{
+.row-2,.row-3,.row-5{
     justify-content: space-between;
 }
 section{
