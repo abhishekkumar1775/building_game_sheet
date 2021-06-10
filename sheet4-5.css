@@ -1,0 +1,81 @@
+body{
+    background: black;
+}
+.part-1{
+    background-image: url(images/Asset1.png);
+    background-repeat:no-repeat ;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: 17vh;
+
+    height: 75vh;
+}
+.row{
+    width: 90vw;
+
+    margin: 0 auto;
+    margin-top: 5vh;
+
+    display: flex;
+    justify-content: center;
+}
+.row-2{
+    margin-top: 7vh;
+}
+.row-3{
+    width: 85vw;
+}
+.row-4{
+    margin-top: 9vh;
+}
+.row-2,.row-3{
+    justify-content: space-between;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.row .inner-row{
+    width: 15vw;
+    height: 3vh;
+
+    margin: 0.1em;
+    background: white;
+}
+
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row .col >div:first-child{
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+    height: 4vh;
+
+    display: flex;
+    align-items: center;
+}
+.row .col >div:first-child >div{
+    margin-left: 1em;
+}
+
+.row .col-1 >div:first-child{
+    border-top-left-radius: 1em;
+}
+
+.col input{
+    width: 15vw;
+    height: 3vh;
+
+    box-sizing: border-box;
+}
+
+.col-2 .inner-row:last-child{
+    border-bottom-right-radius: 1em;
+}
+.col-2 .inner-row:last-child input{
+    border-bottom-right-radius: 1em;
+}
+
