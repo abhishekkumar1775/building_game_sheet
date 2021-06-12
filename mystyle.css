@@ -209,25 +209,69 @@ input[type=number]{
     color: white;
 }
 
-.first-col .text-area {
+/* .first-col .text-area {
     width: 17vw;
     height: 10vh;
-}
+} */
 .first-col textarea{
     box-sizing: border-box;
-    border: 0.2em solid black !important;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 0;
+    /* border: 0.2em solid black !important; */
+    border: none;
+    /* height: 100%; */
+    
+    resize: none;
 }
+#story1{
+    width: ;
+    box-sizing: border-box;
+    height:6vh;
+}
+#story2{
+    height: 14vh;
+}
+#textarea2{
+    height: 14.3vh;
+    background: white;
 
+    display: flex;
+    flex-direction: column;
+
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+#textarea1{
+    width: 17vw;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    border: 2px solid black;
+
+    background: white;
+}
+div.drop1{
+    width: 17vw;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-top: 0;
+    border-bottom: 0;
+}
+#drop1{
+    width: 100%;
+    box-sizing: border-box;
+
+    font-family: "Body Grotesque Slim";
+}
 .first-col .third-row .text-area {
     width: 17vw;
     height: 17vh;
 }
 .second-col textarea{
     box-sizing: border-box;
-    border: 0.2em solid black !important;
+    resize: none;
+    /* border: 0.2em solid black !important; */
     width: 100%;
     margin-bottom: 0;
 }
@@ -252,9 +296,9 @@ input[type=number]{
     display: flex;
     flex-direction: column-reverse;
 
-    justify-content: end;
+    justify-content: center;
 
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
 
     border: 2px solid black;
@@ -271,6 +315,9 @@ input[type=number]{
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
+
+    justify-content: center;
+    font-size: 1em;
 
     border: 2px solid black;
     border-left: none;
@@ -509,6 +556,7 @@ footer .first-row{
 
     display: flex;
     flex-direction: row;
+    font-size: 1.1em;
 
     background-color: transparent;
     margin-bottom: 0.1rem;
@@ -550,7 +598,7 @@ footer .first-row .first-col input[type=number]{
 }
 
 footer .second-row .first-col{
-    width: 8.5vw;
+    width: 8.25vw;
     height: 9VH;
 
     display: flex;
@@ -645,20 +693,29 @@ footer .second-footer >div div.second-row span.one{
     align-items: center;
 
     box-sizing: border-box;
-    width: 7vw;   
+    width: 4vw;   
 }
 footer .second-footer >div div.second-row span.two{
     background: rgb(255, 255, 255);
 
     box-sizing: border-box;
-    width: 2.7vw;   
+    width: 2vw;   
 }
 footer .second-footer >div div.second-row span.three{
     background: rgb(255, 255, 255);
 
     margin-right: ;
     box-sizing: border-box;
-    width: 4.5vw;   
+    width: 4vw;   
+}
+footer #armor{
+    height: 4vh;
+    width:6vw;
+    border: none;
+}
+footer .third-footer select{
+    width: 100%;
+    border: none;
 }
 #second-row{
     width: 17vw;
@@ -757,7 +814,6 @@ footer#footer .third-footer{
     background-color: white;
 
     text-align: left;
-    padding-left: 1vw;
 
     width: 14vw;   
     margin-top: 1vh;
