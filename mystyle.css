@@ -111,10 +111,18 @@ a{
 /* .nav-bar button:hover{
     font-size: 0.9rem;
 } */
+
+.nav-bar button:hover{
+    /* font-size: 0.9rem; */
+    /* background-image: none; */
+    /* background-color: white; */
+    background-image: linear-gradient(to right,rgb(255 255 255), rgb(255 255 255));
+    color: black;
+}
 .nav-bar button:active{
     font-size: 0.9rem;
-    background-image: none;
-    background-color: white;
+    background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
+    background-color: rgba(255, 255, 255, 0.39);
     color: black;
 }
 
@@ -388,11 +396,38 @@ div.second-col.sidebar .box-11{
 
     box-sizing: border-box;
 
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    font-family: sans-serif;
 
     margin-left: 0.2vw;
     margin-right: 0.2vw;
     
+}
+#inside1,#inside2{
+    display: flex;
+    border: none;
+
+    margin: 0;
+    text-align: left;
+}
+
+#inside1>div,#inside2>div{
+    border-right:none ;
+    /* border-left: none; */
+}
+#inside1>input,#inside2>input{
+    border-left:none ;
+    /* border-right: none; */
+    width: 40%;
+    flex-grow: 1;
+
+    font-size: 0.7rem;
+    text-align: left;
+    /* border-left: none; */
+}
+.third-col .grey{
+    background-color: black !important;
+    color: white;
 }
 
 .third-col div.row.first-row{
@@ -461,7 +496,10 @@ height: 1.89vh;
     border-right: 0;
 
     text-align: center;
-    font-weight: 900;
+    
+    padding-top: 0.08rem;
+    font-weight: 600;
+    font-size: 0.7rem;
 
 }
 .third-col .row.first-row .head:nth-of-type(1)
