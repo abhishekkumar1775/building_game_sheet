@@ -12,6 +12,10 @@ section.main-body{
 
     justify-content: space-between;
 }
+textarea{
+    resize: none;
+    border: none;
+}
 
 .col{
     width: 41vw; 
@@ -66,20 +70,34 @@ height: 28vh;
     width:50% ;
     height: 100%;
 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247, 247, 247);
 }
 .row.row-2 .col.col-2{
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
 }
+
 .row .col-1 .row{
     width: 100%;
     height: 50%;
+
+    display: flex;
+    justify-content:space-between !important;
 
     box-sizing: border-box;
     border: 2px solid black;
     background-color: rgb(255, 255, 255);
     /* background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209)); */
+}
+.row .col-1 .row input[type=number]{
+    /* background-color: aqua; */
 
+    height:100%;
+    width: 45%;
+
+    box-sizing: border-box;
+    justify-self: end;
 }
 .col-1 > .row-2{
     width: 100%;
@@ -104,7 +122,14 @@ height: 28vh;
     box-sizing: border-box;
     border: 2px solid black;
 
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+}
+.common-class > .common-row >input{
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    border: none;
 }
 
 .col-1 > .row-2
@@ -181,6 +206,13 @@ height: 28vh;
 
     text-align: center;
     border: 3px solid black;
+}
+.common-rows > input{
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    border: none;
 }
 
 /* _----------col-2------------------- */
@@ -373,4 +405,16 @@ box-sizing: border-box;
 #button button:active{
     background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
 
+}
+#drop-down{
+    width: 15vw;
+    height: 4vh;
+
+    border: none;
+    box-sizing: border-box;
+
+    margin: 0;
+    border: 2px solid black;
+
+    background-color: rgb(255, 255, 255);
 }

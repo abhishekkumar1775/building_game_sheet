@@ -120,10 +120,23 @@ body{
 
     background-color: cadetblue;
 }
+.rank.int-2{
+    display: flex;
+    flex-direction: column;
 
-.interface-3 .int-1{
+    font-size: 1.2em;
+}
+.rank input{
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.interface-3 .int-1 ,.interface-3 .int{
     width:14vw ;
     height: 100%;
+
+    display: flex;
+    flex-direction: column;
 
     border: 3px solid white;
 
@@ -132,7 +145,70 @@ body{
     background-image: linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
     background-color: cadetblue;
 
+    /* border-radius: none !important; */
+
     font-size: 1em;
+}
+.interface-3 >a div:hover{
+    background-image: none  ;
+    background-color: white;
+    
+}
+.interface-3 >a div:active{
+    font-size: 1.1em;
+    color: black;
+    background-image:linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209)) ;
+}
+.interface-3 .int div:last-child{
+    height: 50%;
+    flex-grow: 1;
+}
+.interface-3 .int-2,.interface-3 .int-3 {
+    display: flex;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
+.int-2 > div{
+    height: 70%;
+}
+.int-2 > div{
+    height: 70%;
+}
+.interface-3 >a {
+    border: none;
+
+    display: flex ;
+    align-items: center;
+}
+.interface-3 >a > button{
+    width: 100%;
+    height: 100%;
+
+    padding:0 ;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+
+    box-sizing: border-box;
+    
+
+    font-family: inherit;
+    font-size: 0.8em;
+
+    border: none;
+}
+.interface-3 >a:first-child > button{
+    border-top-left-radius: 1em;
+}
+.interface-3 >a:last-child > button{
+    border-bottom-right-radius: 1em;
+}
+
+.interface-3 .int input{
+    height: 100%;
 }
 .interface-3 .int-2{
     width:14vw ;
@@ -256,6 +332,12 @@ body{
 
     background-color: white;
     /* border: 3px solid black; */
+}
+.one > select{
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
 }
 
 .row-2 .col-2 .three{
