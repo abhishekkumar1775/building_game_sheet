@@ -359,7 +359,14 @@ div.drop1{
 
     background-image:  linear-gradient(to right,rgb(29 216 234),rgb(0 255 180),rgb(0 255 180) , rgb(0 243 209));
 }
-
+.second-col > div>span{
+    background-image: url(images/blackcornerdecoration.png);
+    background-repeat: no-repeat;
+    background-size:contain;   
+}
+.second-col>div:first-child span{
+    border-top-left-radius: 1em !important;
+}
 /* All text inside the boxes */
 div.second-col.sidebar span{
     display: block;
@@ -383,7 +390,13 @@ div.second-col.sidebar .box-11 input#box{
 div.second-col.sidebar .box-1{
     border-top-left-radius: 1em;
 }
-
+div.second-col.sidebar .box-7 div >input{
+    width: 40%;
+}
+div.second-col.sidebar .box-7 div{
+    display: flex;
+    flex-direction: row;
+}
 div.second-col.sidebar .box-11{
     border-bottom-right-radius: 1em;
 }
@@ -777,7 +790,7 @@ footer .third-footer select{
 }
 #second-row{
     width: 17vw;
-    height: 4vh;
+    height: 5.5vh;
     background: white;
     background-image: none;
     margin-top: 0;
@@ -791,7 +804,7 @@ footer .third-footer select{
 
 #second-row .final-row{
     width: 17vw;
-    height: 4vh;
+    height: 2vh;
 
     display: flex;
     flex-direction: row;
@@ -800,7 +813,7 @@ footer .third-footer select{
     margin: 0 !important;
 }
 #second-row span{
-    height: 4vh;
+    height: 2vh;
     width: 6vw;
 
     display: flex;
@@ -819,8 +832,18 @@ footer .third-footer select{
     text-align: center;
 }
 #second-row input{
-    font-size: 2.5rem;
+    font-size: 1rem;
     width: 2.7vw;
+}
+#second-row select{
+    height: 2vh;
+    width: 4vw;
+}
+#second-row{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
 }
 
 footer#footer .third-footer{
@@ -856,6 +879,12 @@ footer#footer .third-footer{
 
     padding-top:1vh ;
     
+}
+.new-col input{
+    width: 100%;
+    box-sizing: border-box;
+
+    border: none;
 }
 
 .third-footer .new-col span.head{
